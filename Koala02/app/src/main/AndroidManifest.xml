@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.management.jagauang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wallet"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:process=":vserv"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:process=":vserv"
+            android:screenOrientation="portrait"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SavingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReportActivity"
+            android:screenOrientation="landscape">
+             
+        </activity>
+        <activity
+            android:name=".SpendingActivity"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".daftar_management"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".artikel_management_1"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".artikel_management_2"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".artikel_management_3"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".artikel_management_4"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".artikel_management_5"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".artikel_management_6"
+            android:screenOrientation="portrait">
+             
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+    </application>
+
+</manifest>
