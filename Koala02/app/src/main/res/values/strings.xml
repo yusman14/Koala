@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Koala</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title">Koala</string>
+    <string name="btnAddtxt">Tambah</string>
+    <string name="namaLabel">Kegiatan</string>
+    <string name="hobiLabel">Jumlah</string>
+    <string name="nomorLabel">No.</string>
+    <string name="time">Waktu</string>
+    <string name="timec">Waktu Dibuat</string>
+    <string name="date">Tanggal</string>
+    <string name="setdate">Set Tanggal</string>
+    <string name="settime">Set Waktu</string>
+    <string name="input_saving">Table Management Keuangan</string>
+    <string name="empety" />
+    <string name="activity">Kegiatan</string>
+    <string name="total">Total</string>
+    <string name="btnGetRow">Dapat</string>
+    <string name="btnUpdateRow">Update</string>
+    <string name="ketUpdate">Sebelum mengubah data, pilih dulu baris ke berapa data yang akan diubah</string>
+    <string name="ketAmbilBaris">Update data pada baris ke</string>
+    <string name="ketDelete">Tulis no. baris yang akan di delete, lalu klik tombol delete</string>
+    <string name="btnDel">Delete</string>
+    <string name="btnDelR">Delete Baris</string>
+    <string name="btnDelA">Delete Semua</string>
+    <string name="btnManagementMonth">Management Setiap Bulan</string>
+    <string name="update">Update [Pilih No Baris]</string>
+    <string name="Choose" />
+    <string name="Delete">Delete [Pilih No Baris]</string>
+    <string name="Saving_Table">Table Pendapatan | Total Pendapatan :</string>
+    <string name="Spending_Table">Table Pengeluaran | Total Pengeluaran :</string>
+    <string name="manage">Management Bulan Ini</string>
+    <string name="manage_saving">Pendapatan</string>
+    <string name="manage_spending">Pengeluaran</string>
+    <string name="manage_total">Total</string>
+    <string name="create">Buat Baru</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
