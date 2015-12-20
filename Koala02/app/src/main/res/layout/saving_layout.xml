@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textColor="#ffffffff" android:orientation="vertical" android:background="@drawable/bakhground_sbmptn" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/textView1" android:background="#fff87f44" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="Menu Pendapatan" android:layout_alignRight="@id/textView233" android:layout_alignParentTop="true" android:textAlignment="4" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.11">
+        <TextView android:textColor="#ffffffff" android:id="@id/textView133" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="20.0dip" android:text="@string/time" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <EditText android:id="@id/inNama" android:layout_width="150.0dip" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/textView233" android:layout_alignLeft="@id/textView233" android:layout_alignRight="@id/dateAndTime" />
+        <TextView android:textColor="#ffffffff" android:id="@id/textView233" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/activity" android:layout_below="@id/dayBtn" android:layout_alignLeft="@id/dayBtn" />
+        <TextView android:textColor="#ffffffff" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/total" android:layout_below="@id/inNama" android:layout_alignLeft="@id/inNama" />
+        <Button android:id="@id/dayBtn" android:layout_width="150.0dip" android:layout_height="wrap_content" android:text="@string/setdate" android:layout_below="@id/dateAndTime" android:layout_alignLeft="@id/dateAndTime" style="?android:attr/buttonStyleSmall" />
+        <Button android:id="@id/timeBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settime" android:layout_toRightOf="@id/dayBtn" android:layout_above="@id/textView233" style="?android:attr/buttonStyleSmall" />
+        <Button android:textColor="#ffffffff" android:id="@id/btnAdd" android:background="@drawable/add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:layout_below="@id/inHobi" android:layout_alignRight="@id/inHobi" />
+        <EditText android:id="@id/inHobi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/textView3" android:layout_alignLeft="@id/textView3" android:layout_alignRight="@id/inNama" android:inputType="number">
+            <requestFocus />
+        </EditText>
+        <EditText android:id="@id/dateAndTime" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:ems="10" android:layout_below="@id/textView133" android:layout_alignLeft="@id/textView133" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>
